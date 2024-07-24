@@ -1,4 +1,23 @@
+#= ASSETS FILES
+#====================
+assets/css/*
+assets/scss/*
+assets/fonts/*
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+public_html/*
+node_modules/*
+
+#= EDITOR FILES
+#====================
+.DS_Store
+desktop.ini
+prepros.cfg
+prepros.config
+prepros-6.config
+
+#= TEMPLATES FILES
+#====================
+*.pug
