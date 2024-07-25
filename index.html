@@ -80,7 +80,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 <!-- TITLE--><title>XOO – Journey Across Mexicos's Soul</title>
-<!-- CSS--><link rel="stylesheet" href="http://localhost:8888/xoo-website/assets/dist/main.min.css?v=0.08">
+<!-- CSS--><link rel="stylesheet" href="http://localhost:8888/xoo-website/assets/dist/main.min.css?v=1.02">
 <!-- GTM--></head>
 <body class="js-body">
 <!-- NAVIGATION--><header class="header js-header">
@@ -105,27 +105,92 @@
 <div class="header__navigation">
 <nav>
 <ul role="options">
-<li role="items">
+<li role="item">
 <a href="#" role="option" class="is--active">
 <span>Home</span>
 </a>
 </li>
-<li role="items">
-<a href="#" role="option">
+<li role="item">
+<a href="#" role="submenu">
 <span>Destinations</span>
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.0009 15.5858L13.5867 12L10.0009 8.41426C9.95209 8.36544 9.90937 8.31284 9.87276 8.25739C9.61648 7.86924 9.65919 7.34176 10.0009 7.00005C10.3914 6.60952 11.0246 6.60952 11.4151 7.00005L15.708 11.2929C15.8955 11.4805 16.0009 11.7348 16.0009 12C16.0009 12.2653 15.8955 12.5196 15.708 12.7072L11.4151 17C11.0246 17.3906 10.3914 17.3906 10.0009 17C9.61038 16.6095 9.61038 15.9764 10.0009 15.5858Z"/>
+</svg>
+</a>
+<ol>
+<li>
+<a href="#">
+<span>Mexico City</span>
 </a>
 </li>
-<li role="items">
+<li>
+<a href="#">
+<span>Guadalajara</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Costa Alegre</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Riviera Nayarit</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Valle de Guadalupe</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Oaxaca City</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Puerto escondido</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Puerto Vallarta</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Los Cabos</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Tulum</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Playa del Carmen</span>
+</a>
+</li>
+<li>
+<a href="#">
+<span>Cancún</span>
+</a>
+</li>
+</ol>
+</li>
+<li role="item">
 <a href="#" role="option">
 <span>About us</span>
 </a>
 </li>
-<li role="items">
+<li role="item">
 <a href="#" role="option">
 <span>Contact</span>
 </a>
 </li>
-<li role="items">
+<li role="item">
 <a href="#" role="option">
 <span>Loggin</span>
 </a>
@@ -138,7 +203,7 @@
 <!--GRID ROW-->
 </div>
 </header><main class="page">
-<section class="home__cover">
+<!--= 01--><section class="home__cover">
 <div class="home__cover__layout" role="layout">
 <div class="home__cover__image">
 <img src="http://localhost:8888/xoo-website/assets/images/cover.jpg?v=">
@@ -159,8 +224,8 @@
 </div>
 <div  class="home__about__column" role="column">
 <article class="home__about__text">
-<p>Mexico is a generous country: with landscapes ranging from deserts to jungles and beaches, endless cultural expressions, world-renowned cuisine, and above all, warm-hearted people always ready to welcome visitors with the best they have to offer.</p>
-<p>If you’re keen to learn more about our wonderful country and how to reach these exclusive destinations, our platform XOO is the ideal spot to discover everything about the best of Mexico.</p>
+<p role="01">Mexico is a generous country: with landscapes ranging from deserts to jungles and beaches, endless cultural expressions, world-renowned cuisine, and above all, warm-hearted people always ready to welcome visitors with the best they have to offer.</p>
+<p role="02">If you’re keen to learn more about our wonderful country and how to reach these exclusive destinations, our platform XOO is the ideal spot to discover everything about the best of Mexico.</p>
 </article>
 </div>
 </div>
@@ -394,16 +459,33 @@ circle to discover Mexico.</p>
 <!--GRID ROW-->
 <div class="footer__grid" role="grid">
 <div class="footer__column" role="column">
+<div class="footer__logo">
+<a href="http://localhost:8888/xoo-website">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186.66 61.19">
+<path d="M46.37,2.6c.93,0,1.57.38,1.94,1.14.36.76.28,1.51-.25,2.23l-17.97,22.54L15.29,6.58c-.53-.73-.55-1.57-.05-2.53.5-.96,1.5-1.44,3.03-1.44v-.1H2.52v.1c1.12,0,22.89,31.77,22.89,31.77L6.65,57.81c-.79,1.06-1.77,1.87-2.93,2.43-1.16.56-2.4.84-3.72.84v.1h9.53v-.1c-.86,0-1.47-.38-1.84-1.14-.37-.76-.28-1.47.25-2.13l17.97-22.54c1.92,2.85,8.92,13.12,10.28,15.14,1.35,2.02,2.86,4.25,4.52,6.7.53.73.55,1.57.05,2.53-.5.96-1.51,1.44-3.03,1.44v.1h15.83v-.1c-1.26,0-20.63-28.3-22.88-31.67L49.45,5.78c1.72-2.12,3.9-3.18,6.55-3.18v-.1h-9.63v.1Z"/>
+<path d="M154.34.15c-3.93.4-7.58,1.54-10.94,3.42-3.36,1.88-6.28,4.41-8.75,7.59-2.41,3.18-4.15,6.7-5.22,10.56-1.07,3.86-1.4,7.82-.98,11.88.42,4.06,1.54,7.86,3.37,11.39,1.83,3.53,4.25,6.6,7.25,9.23,3.07,2.62,6.44,4.51,10.11,5.66,3.67,1.16,7.47,1.53,11.41,1.13,3.87-.4,7.49-1.53,10.85-3.41,3.36-1.88,6.28-4.41,8.75-7.59,2.41-3.18,4.17-6.68,5.28-10.51,1.11-3.83,1.45-7.77,1.03-11.84-.42-4.06-1.56-7.87-3.42-11.43-1.86-3.56-4.3-6.65-7.3-9.27-3.07-2.62-6.44-4.5-10.11-5.66-3.67-1.15-7.44-1.54-11.31-1.14M175.43,10.8c2.75,1.67,4.99,3.9,6.75,6.69,1.75,2.79,2.84,6.21,3.25,10.27.42,4.06.05,7.64-1.1,10.72-1.15,3.08-2.9,5.71-5.26,7.87-2.35,2.17-5.18,3.87-8.47,5.12-3.29,1.25-6.88,2.07-10.75,2.47-3.87.4-7.54.32-11.02-.24-3.48-.56-6.59-1.65-9.33-3.3-2.74-1.64-5-3.85-6.79-6.64-1.78-2.78-2.89-6.21-3.3-10.27-.42-4.06-.03-7.64,1.15-10.73,1.18-3.09,2.95-5.73,5.3-7.93,2.35-2.2,5.17-3.92,8.46-5.17,3.29-1.25,6.88-2.07,10.75-2.47,3.87-.4,7.54-.32,11.02.24s6.59,1.67,9.34,3.34"/>
+<path d="M119.94,21.82c-1.3-3.74-3.24-7.02-5.84-9.86-2.6-2.84-5.73-5.1-9.4-6.78-3.65-1.62-7.47-2.5-11.47-2.66-4-.16-7.93.44-11.79,1.77-3.86,1.34-7.3,3.3-10.31,5.89-3.01,2.59-5.45,5.65-7.32,9.18-1.84,3.59-2.91,7.3-3.19,11.14-.28,3.84.23,7.63,1.52,11.36,1.27,3.68,3.21,6.93,5.81,9.77,2.6,2.84,5.73,5.1,9.4,6.78,3.65,1.62,7.46,2.52,11.44,2.72,3.98.2,7.9-.37,11.76-1.71,3.86-1.34,7.3-3.32,10.34-5.95,3.03-2.63,5.48-5.71,7.35-9.24,1.84-3.59,2.9-7.3,3.19-11.14.28-3.84-.21-7.59-1.49-11.27M114.42,44.79c-1,3.06-2.65,5.76-4.96,8.1-2.31,2.35-5.39,4.19-9.25,5.53-3.86,1.34-7.42,1.8-10.69,1.39-3.27-.41-6.22-1.51-8.87-3.31-2.65-1.79-4.96-4.15-6.93-7.07-1.97-2.92-3.6-6.22-4.87-9.89-1.27-3.68-2.04-7.27-2.3-10.78-.26-3.51.1-6.79,1.07-9.84.97-3.05,2.6-5.76,4.9-8.13,2.3-2.38,5.38-4.23,9.24-5.57,3.86-1.34,7.43-1.79,10.7-1.34,3.28.44,6.25,1.56,8.93,3.34,2.68,1.78,5,4.13,6.97,7.05,1.97,2.92,3.6,6.21,4.87,9.89,1.27,3.68,2.04,7.27,2.3,10.78.26,3.51-.11,6.8-1.11,9.86"/>
+</svg>
+</a>
+</div>
 </div>
 <div  class="footer__column" role="column">
+<div class="footer__social">
+<a href="#">
+<span>@xoo.travel</span>
+</a>
+</div>
 </div>
 </div>
 <!--GRID ROW-->
-<div class="">
-<p>©2024 XOO – All rights reserved</p>
-<a href="#" role="" target="_blank">Aviso de privacidad</a>
+<div class="footer__privacy">
+<p>©<strong>2024</strong> XOO – All rights reserved <a href="#" role="link" target="_blank">Aviso de privacidad</a></p>
 </div>
 </div>
-</footer><script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</footer><script src="http://localhost:8888/xoo-website/assets/dist/vendors.min.js?v=0.05"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://scrollmagic.io/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+<script src="http://localhost:8888/xoo-website/assets/dist/app.min.js?v=0.05"></script>
 </body>
 </html>

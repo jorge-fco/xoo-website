@@ -1,5 +1,6 @@
 #= ASSETS FILES
 #====================
+assets/js/*
 assets/css/*
 assets/scss/*
 assets/fonts/*
