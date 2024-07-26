@@ -80,10 +80,53 @@
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 <!-- TITLE--><title>XOO – Journey Across Mexicos's Soul</title>
-<!-- CSS--><link rel="stylesheet" href="https://jorge-fco.github.io/xoo-website/assets/dist/main.min.css?v=2.03">
+<!-- CSS--><link rel="stylesheet" href="https://jorge-fco.github.io/xoo-website/assets/dist/main.min.css?v=3.00">
 <!-- GTM--><script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXX"></script>
 <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXX');</script></head>
-<body class="js-body">
+<body class="js-body"><div class="modal js-modal" role="modal">
+<div class="modal__overlay js-modal-overlay" role="overlay"></div>
+<div class="modal__body js-modal-body">
+<div class="modal__body__header">
+<button type="button" class="button js-modal-button-close">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M17.6585 4.92888C18.049 4.53836 18.6822 4.53835 19.0727 4.92888C19.4632 5.3194 19.4632 5.95257 19.0727 6.34309L13.4158 12L19.0727 17.6568C19.4632 18.0473 19.4632 18.6805 19.0727 19.071C18.6822 19.4615 18.049 19.4615 17.6585 19.071L12.0016 13.4142L6.34481 19.071C6.3387 19.0771 6.33254 19.0831 6.32632 19.089C5.93455 19.4614 5.31501 19.4554 4.93059 19.071C4.6377 18.7781 4.56447 18.3487 4.71092 17.9876C4.75973 17.8672 4.83296 17.7544 4.93059 17.6568L10.5874 12L4.93059 6.34314C4.54006 5.95262 4.54006 5.31945 4.93059 4.92893C5.32111 4.5384 5.95428 4.5384 6.3448 4.92893L12.0016 10.5857L17.6585 4.92888Z"/> </svg>
+</button>
+</div>
+<article class="register__general__form">
+<form action="#" class="register__general__form__component js-form-register">
+<div class="register__general__form__title">
+<h4>Singup</h4>
+</div>
+<div class="register__general__form__text">
+<p>To join, you need an <strong>invitation from
+a registered member.</strong> Add your
+subscribed email and join the exclusive
+circle to discover Mexico.</p>
+</div>
+<div class="register__general__form__item" role="item">
+<label>Nombre</label>
+<input type="text" name="name">
+<div class="register__general__form__alert" role="alert"></div>
+</div>
+<div class="register__general__form__item" role="item">
+<label>Suscribed e-mail<span>*</span></label>
+<input type="email" name="reference">
+</div>
+<div class="register__general__form__item" role="item">
+<label>Your e-mail</label>
+<input type="email" name="email">
+</div>
+<div class="register__general__form__item" role="item">
+<button type="submit" class="button">
+<span>Singup</span>
+</button>
+</div>
+</form>
+<div class="register__general__form__footer">
+<p>Don't have an invitation account? <a href="#" target="_blank">Write to us</a>
+</p>
+</div>
+</article></div>
+</div>
 <!-- NAVIGATION--><header class="header js-header">
 <div class="header__layout" role="layout">
 <!--GRID ROW-->
@@ -107,7 +150,7 @@
 <nav>
 <ul role="options">
 <li role="item">
-<a href="#" role="option" class="is--active">
+<a href="https://jorge-fco.github.io/xoo-website" role="option" class="is--active">
 <span>Home</span>
 </a>
 </li>
@@ -203,7 +246,7 @@
 </div>
 <!--GRID ROW-->
 </div>
-</header><main class="home">
+</header><main class="home js-home">
 <!--= 01--><section class="home__cover">
 <div class="home__cover__layout" role="layout">
 <div class="home__cover__image">
@@ -222,7 +265,8 @@
 </div>
 </section>
 <!--= 01-->
-<!--= 02--><section class="home__about">
+<!--= 02-->
+<section class="home__about">
 <div class="home__about__layout" role="layout">
 <!--GRID ROW-->
 <div class="home__about__grid" role="grid">
@@ -254,7 +298,7 @@
 <h4>Discover<br>the <span>ﬂavors</span></h4>
 </div>
 <div class="home__discover__item__body__link">
-<a href="#" role="button" class="button">
+<a href="#" role="button" class="button js-modal-button-open">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.55 34.67"><rect y="15.1" width="34.39" height="4.47"/><polygon points="20.22 34.67 17.05 31.51 31.23 17.34 17.05 3.16 20.22 0 37.55 17.34 20.22 34.67"/></svg>
 <span>SING IN</span>
 </a>
@@ -275,7 +319,7 @@
 <h4>Experience<br>the <span>cultures</span></h4>
 </div>
 <div class="home__discover__item__body__link">
-<a href="#" role="button" class="button">
+<a href="#" role="button" class="button js-modal-button-open">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.55 34.67"><rect y="15.1" width="34.39" height="4.47"/><polygon points="20.22 34.67 17.05 31.51 31.23 17.34 17.05 3.16 20.22 0 37.55 17.34 20.22 34.67"/></svg>
 <span>SING IN</span>
 </a>
@@ -296,7 +340,7 @@
 <h4>Enjoy<br>the <span>paradises</span></h4>
 </div>
 <div class="home__discover__item__body__link">
-<a href="#" role="button" class="button">
+<a href="#" role="button" class="button js-modal-button-open">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.55 34.67"><rect y="15.1" width="34.39" height="4.47"/><polygon points="20.22 34.67 17.05 31.51 31.23 17.34 17.05 3.16 20.22 0 37.55 17.34 20.22 34.67"/></svg>
 <span>SING IN</span>
 </a>
@@ -347,41 +391,41 @@ to make your journey through our beautiful country a unique experience.</p>
 </article>
 </div>
 <div  class="home__register__column" role="column">
-<article class="home__register__form">
-<form action="" class="home__register__form__component">
-<div class="home__register__form__title">
+<article class="register__general__form">
+<form action="#" class="register__general__form__component js-form-register">
+<div class="register__general__form__title">
 <h4>Singup</h4>
 </div>
-<div class="home__register__form__text">
+<div class="register__general__form__text">
 <p>To join, you need an <strong>invitation from
 a registered member.</strong> Add your
 subscribed email and join the exclusive
 circle to discover Mexico.</p>
 </div>
-<div class="home__register__form__item" role="item">
+<div class="register__general__form__item" role="item">
 <label>Nombre</label>
-<input type="text" name="">
+<input type="text" name="name">
+<div class="register__general__form__alert" role="alert"></div>
 </div>
-<div class="home__register__form__item" role="item">
+<div class="register__general__form__item" role="item">
 <label>Suscribed e-mail<span>*</span></label>
-<input type="text" name="">
+<input type="email" name="reference">
 </div>
-<div class="home__register__form__item" role="item">
+<div class="register__general__form__item" role="item">
 <label>Your e-mail</label>
-<input type="text" name="">
+<input type="email" name="email">
 </div>
-<div class="home__register__form__item" role="item">
-<button type="button" class="button">
+<div class="register__general__form__item" role="item">
+<button type="submit" class="button">
 <span>Singup</span>
 </button>
 </div>
 </form>
-<div class="home__register__form__footer">
+<div class="register__general__form__footer">
 <p>Don't have an invitation account? <a href="#" target="_blank">Write to us</a>
 </p>
 </div>
-</article>
-</div>
+</article></div>
 </div>
 <!--GRID ROW-->
 </section>
@@ -490,10 +534,10 @@ circle to discover Mexico.</p>
 <p>©<strong>2024</strong> XOO – All rights reserved <a href="#" role="link" target="_blank">Aviso de privacidad</a></p>
 </div>
 </div>
-</footer><script src="https://jorge-fco.github.io/xoo-website/assets/dist/vendors.min.js?v=1.00"></script>
+</footer><script src="https://jorge-fco.github.io/xoo-website/assets/dist/vendors.min.js?v=2.00"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 <script src="https://scrollmagic.io/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
-<script src="https://jorge-fco.github.io/xoo-website/assets/dist/app.min.js?v=1.00"></script>
+<script src="https://jorge-fco.github.io/xoo-website/assets/dist/app.min.js?v=2.00"></script>
 </body>
 </html>
