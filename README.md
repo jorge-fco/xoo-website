@@ -1,14 +1,19 @@
 # XOO Website
 
 ### Architecture
-- Home
-- Destinations
-	- Detail
-- About Us
-- Contact
+- [ ] Home
+- [ ] Destinations
+	- Destination
+		- Categories
+			- List
+				- Detail
+- [ ] About Us
+- [ ] Contact
 - Blog
-- Trending
+- [ ] Trending
+	- Detail
 - Login
 - Register
+- Account
 - Error 404
 - Privacy

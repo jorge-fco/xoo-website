@@ -80,19 +80,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 <!-- TITLE--><title>XOO – Journey Across Mexicos's Soul</title>
-<!-- CSS--><link rel="stylesheet" href="https://jorge-fco.github.io/xoo-website/assets/dist/main.min.css?v=3.05">
+<!-- CSS--><link rel="stylesheet" href="https://jorge-fco.github.io/xoo-website/assets/dist/main.min.css?v=3.09">
 <!-- GTM--><script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXX"></script>
 <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXX');</script></head>
 <body class="js-body"><div class="modal js-modal" role="modal">
 <div class="modal__overlay js-modal-overlay" role="overlay"></div>
 <div class="modal__body js-modal-body">
-<div class="modal__body__header">
+<!--= CLOSE--><div class="modal__body__header">
 <button type="button" class="button js-modal-button-close">
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M17.6585 4.92888C18.049 4.53836 18.6822 4.53835 19.0727 4.92888C19.4632 5.3194 19.4632 5.95257 19.0727 6.34309L13.4158 12L19.0727 17.6568C19.4632 18.0473 19.4632 18.6805 19.0727 19.071C18.6822 19.4615 18.049 19.4615 17.6585 19.071L12.0016 13.4142L6.34481 19.071C6.3387 19.0771 6.33254 19.0831 6.32632 19.089C5.93455 19.4614 5.31501 19.4554 4.93059 19.071C4.6377 18.7781 4.56447 18.3487 4.71092 17.9876C4.75973 17.8672 4.83296 17.7544 4.93059 17.6568L10.5874 12L4.93059 6.34314C4.54006 5.95262 4.54006 5.31945 4.93059 4.92893C5.32111 4.5384 5.95428 4.5384 6.3448 4.92893L12.0016 10.5857L17.6585 4.92888Z"/> </svg>
 </button>
 </div>
+<!--= CLOSE-->
 <article class="register__general__form">
-<form action="#" class="register__general__form__component js-form-register">
+<form action="#" class="register__general__form__component js-register-form">
 <div class="register__general__form__title">
 <h4>Singup</h4>
 </div>
@@ -104,7 +105,7 @@ circle to discover Mexico.</p>
 </div>
 <div class="register__general__form__item" role="item">
 <label>Nombre</label>
-<input type="text" name="name">
+<input type="text" name="name" class="js-register-form-input-name">
 <div class="register__general__form__alert" role="alert"></div>
 </div>
 <div class="register__general__form__item" role="item">
@@ -225,7 +226,7 @@ circle to discover Mexico.</p>
 </ol>
 </li>
 <li role="item">
-<a href="#" role="option">
+<a href="https://jorge-fco.github.io/xoo-website/about" role="option">
 <span>About us</span>
 </a>
 </li>
@@ -374,77 +375,72 @@ to make your journey through our beautiful country a unique experience.</p>
 </section>
 <!--= 03-->
 <!--= 04--><section class="home__register">
+<div class="home__register__layout" role="layout">
 <div class="home__register__slider" role="slider">
 <!--= ITEM 01--><div class="home__register__slider__item" role="item">
 <div class="home__register__overlay" role="overlay">
-<img src="https://images.unsplash.com/photo-1522092787785-60123fde65c4?q=80&w=1920&auto=format&fit=crop">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/01.png">
 </div>
 <article class="home__register__title">
-<p>Join our<span>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.8 113.49">
-<path d="m149.34,113.49c-24.75,0-47.7-.93-68.06-2.79C45.16,107.39,1.76,99.7.05,81.8c-1.71-17.89,39.46-33.66,74.3-43.73,48.56-14.04,113.8-25.44,183.7-32.1C327.96-.69,394.18-1.82,444.52,2.79c36.11,3.31,79.52,11.01,81.23,28.9,1.71,17.89-39.47,33.66-74.3,43.73-48.56,14.04-113.8,25.44-183.7,32.1-41.63,3.97-81.96,5.97-118.4,5.97M376.46,3c-36.35,0-76.57,2-118.12,5.96-69.72,6.65-134.77,18.01-183.15,32C8.42,60.26,2.49,75.75,3.04,81.52c.55,5.76,9.3,19.86,78.52,26.19,50.16,4.59,116.18,3.46,185.9-3.19,69.72-6.65,134.77-18.01,183.16-32,66.77-19.3,72.7-34.79,72.15-40.56-.55-5.77-9.3-19.86-78.51-26.19-20.27-1.86-43.14-2.78-67.78-2.78"/>
-</svg>exclusive circle</span>
-<br>and dis cover Mexico
-</p>
+<p>Palace of Fine Arts, Mexico City</p>
 </article>
 </div>
 <!--= ITEM 01-->
-<!--= ITEM 01--><div class="home__register__slider__item" role="item">
+<!--= ITEM 02--><div class="home__register__slider__item" role="item">
 <div class="home__register__overlay" role="overlay">
-<img src="https://images.unsplash.com/photo-1512813389649-acb9131ced20?q=80&w=1920&auto=format&fit=crop">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/02.png">
 </div>
 <article class="home__register__title">
-<p>Join our<span>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.8 113.49">
-<path d="m149.34,113.49c-24.75,0-47.7-.93-68.06-2.79C45.16,107.39,1.76,99.7.05,81.8c-1.71-17.89,39.46-33.66,74.3-43.73,48.56-14.04,113.8-25.44,183.7-32.1C327.96-.69,394.18-1.82,444.52,2.79c36.11,3.31,79.52,11.01,81.23,28.9,1.71,17.89-39.47,33.66-74.3,43.73-48.56,14.04-113.8,25.44-183.7,32.1-41.63,3.97-81.96,5.97-118.4,5.97M376.46,3c-36.35,0-76.57,2-118.12,5.96-69.72,6.65-134.77,18.01-183.15,32C8.42,60.26,2.49,75.75,3.04,81.52c.55,5.76,9.3,19.86,78.52,26.19,50.16,4.59,116.18,3.46,185.9-3.19,69.72-6.65,134.77-18.01,183.16-32,66.77-19.3,72.7-34.79,72.15-40.56-.55-5.77-9.3-19.86-78.51-26.19-20.27-1.86-43.14-2.78-67.78-2.78"/>
-</svg>exclusive circle</span>
-<br>and dis cover Mexico
-</p>
+<p>Bacalar, Cancun</p>
 </article>
 </div>
-<!--= ITEM 01-->
-<!--= ITEM 01--><div class="home__register__slider__item" role="item">
+<!--= ITEM 02-->
+<!--= ITEM 03--><div class="home__register__slider__item" role="item">
 <div class="home__register__overlay" role="overlay">
-<img src="https://images.unsplash.com/photo-1564678164-f00ad53a38e6?q=80&w=1920&auto=format&fit=crop">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/03.png">
 </div>
 <article class="home__register__title">
-<p>Join our<span>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.8 113.49">
-<path d="m149.34,113.49c-24.75,0-47.7-.93-68.06-2.79C45.16,107.39,1.76,99.7.05,81.8c-1.71-17.89,39.46-33.66,74.3-43.73,48.56-14.04,113.8-25.44,183.7-32.1C327.96-.69,394.18-1.82,444.52,2.79c36.11,3.31,79.52,11.01,81.23,28.9,1.71,17.89-39.47,33.66-74.3,43.73-48.56,14.04-113.8,25.44-183.7,32.1-41.63,3.97-81.96,5.97-118.4,5.97M376.46,3c-36.35,0-76.57,2-118.12,5.96-69.72,6.65-134.77,18.01-183.15,32C8.42,60.26,2.49,75.75,3.04,81.52c.55,5.76,9.3,19.86,78.52,26.19,50.16,4.59,116.18,3.46,185.9-3.19,69.72-6.65,134.77-18.01,183.16-32,66.77-19.3,72.7-34.79,72.15-40.56-.55-5.77-9.3-19.86-78.51-26.19-20.27-1.86-43.14-2.78-67.78-2.78"/>
-</svg>exclusive circle</span>
-<br>and dis cover Mexico
-</p>
+<p>Metropolitan Cathedral, Oaxaca City</p>
 </article>
 </div>
-<!--= ITEM 01-->
-<!--= ITEM 01--><div class="home__register__slider__item" role="item">
+<!--= ITEM 03-->
+<!--= ITEM 04--><div class="home__register__slider__item" role="item">
 <div class="home__register__overlay" role="overlay">
-<img src="https://images.unsplash.com/photo-1601289127585-b9ce67af6a33?q=80&w=1920&auto=format&fit=crop">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/04.png">
 </div>
 <article class="home__register__title">
-<p>Join our<span>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.8 113.49">
-<path d="m149.34,113.49c-24.75,0-47.7-.93-68.06-2.79C45.16,107.39,1.76,99.7.05,81.8c-1.71-17.89,39.46-33.66,74.3-43.73,48.56-14.04,113.8-25.44,183.7-32.1C327.96-.69,394.18-1.82,444.52,2.79c36.11,3.31,79.52,11.01,81.23,28.9,1.71,17.89-39.47,33.66-74.3,43.73-48.56,14.04-113.8,25.44-183.7,32.1-41.63,3.97-81.96,5.97-118.4,5.97M376.46,3c-36.35,0-76.57,2-118.12,5.96-69.72,6.65-134.77,18.01-183.15,32C8.42,60.26,2.49,75.75,3.04,81.52c.55,5.76,9.3,19.86,78.52,26.19,50.16,4.59,116.18,3.46,185.9-3.19,69.72-6.65,134.77-18.01,183.16-32,66.77-19.3,72.7-34.79,72.15-40.56-.55-5.77-9.3-19.86-78.51-26.19-20.27-1.86-43.14-2.78-67.78-2.78"/>
-</svg>exclusive circle</span>
-<br>and dis cover Mexico
-</p>
+<p>Hotel Terrestre, Puerto Escondido</p>
 </article>
 </div>
-<!--= ITEM 01-->
-<!--= ITEM 01--><div class="home__register__slider__item" role="item">
+<!--= ITEM 04-->
+<!--= ITEM 05--><div class="home__register__slider__item" role="item">
 <div class="home__register__overlay" role="overlay">
-<img src="https://images.unsplash.com/photo-1562095241-8c6714fd4178?q=80&w=1920&auto=format&fit=crop">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/05.png">
 </div>
 <article class="home__register__title">
-<p>Join our<span>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.8 113.49">
-<path d="m149.34,113.49c-24.75,0-47.7-.93-68.06-2.79C45.16,107.39,1.76,99.7.05,81.8c-1.71-17.89,39.46-33.66,74.3-43.73,48.56-14.04,113.8-25.44,183.7-32.1C327.96-.69,394.18-1.82,444.52,2.79c36.11,3.31,79.52,11.01,81.23,28.9,1.71,17.89-39.47,33.66-74.3,43.73-48.56,14.04-113.8,25.44-183.7,32.1-41.63,3.97-81.96,5.97-118.4,5.97M376.46,3c-36.35,0-76.57,2-118.12,5.96-69.72,6.65-134.77,18.01-183.15,32C8.42,60.26,2.49,75.75,3.04,81.52c.55,5.76,9.3,19.86,78.52,26.19,50.16,4.59,116.18,3.46,185.9-3.19,69.72-6.65,134.77-18.01,183.16-32,66.77-19.3,72.7-34.79,72.15-40.56-.55-5.77-9.3-19.86-78.51-26.19-20.27-1.86-43.14-2.78-67.78-2.78"/>
-</svg>exclusive circle</span>
-<br>and dis cover Mexico
-</p>
+<p>Tierra Tropical, Punta Mita</p>
 </article>
 </div>
-<!--= ITEM 01--></div>
+<!--= ITEM 05-->
+<!--= ITEM 06--><div class="home__register__slider__item" role="item">
+<div class="home__register__overlay" role="overlay">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/06.png">
+</div>
+<article class="home__register__title">
+<p>Mayan Ruins, Tulum</p>
+</article>
+</div>
+<!--= ITEM 06-->
+<!--= ITEM 07--><div class="home__register__slider__item" role="item">
+<div class="home__register__overlay" role="overlay">
+<img src="https://jorge-fco.github.io/xoo-website/assets/images/slider/07.png">
+</div>
+<article class="home__register__title">
+<p>Cuatro Cuatros, Valle de Guadalupe</p>
+</article>
+</div>
+<!--= ITEM 07--></div>
+</div>
 </section>
 <!--= 04-->
 <!--= 05--><section class="home__trending">
@@ -457,14 +453,14 @@ to make your journey through our beautiful country a unique experience.</p>
 <!--= ITEM 01--><div class="home__trending__column" role="column">
 <article class="home__trending__item set fadeInUp">
 <div class="home__trending__item__thumb">
-<a href="#" class="home__trending__item__link">
+<a href="https://jorge-fco.github.io/xoo-website/post" class="home__trending__item__link">
 <img src="https://jorge-fco.github.io/xoo-website/assets/images/trending_01.png?v=?v=0.04">
 </a>
 </div>
 <div class="home__trending__item__body" role="body">
 <h4>LOS CABOS</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor</p>
-<a href="#" class="button" role="button">
+<a href="https://jorge-fco.github.io/xoo-website" class="button" role="button">
 <span>Read More</span>
 </a>
 </div>
@@ -473,14 +469,14 @@ to make your journey through our beautiful country a unique experience.</p>
 <!--= ITEM 02--><div class="home__trending__column" role="column">
 <article class="home__trending__item set fadeInUp">
 <div class="home__trending__item__thumb">
-<a href="#" class="home__trending__item__link">
+<a href="https://jorge-fco.github.io/xoo-website" class="home__trending__item__link">
 <img src="https://jorge-fco.github.io/xoo-website/assets/images/trending_02.png?v=?v=0.04">
 </a>
 </div>
 <div class="home__trending__item__body" role="body">
 <h4>THE ONE&ONLY MANDARINA</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor</p>
-<a href="#" class="button" role="button">
+<a href="https://jorge-fco.github.io/xoo-website" class="button" role="button">
 <span>Read More</span>
 </a>
 </div>
@@ -489,14 +485,14 @@ to make your journey through our beautiful country a unique experience.</p>
 <!--= ITEM 03--><div class="home__trending__column" role="column">
 <article class="home__trending__item set fadeInUp">
 <div class="home__trending__item__thumb">
-<a href="#" class="home__trending__item__link">
+<a href="https://jorge-fco.github.io/xoo-website" class="home__trending__item__link">
 <img src="https://jorge-fco.github.io/xoo-website/assets/images/trending_03.png?v=?v=0.04">
 </a>
 </div>
 <div class="home__trending__item__body" role="body">
 <h4>NÜ TULUM</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor</p>
-<a href="#" class="button" role="button">
+<a href="https://jorge-fco.github.io/xoo-website" class="button" role="button">
 <span>Read More</span>
 </a>
 </div>
@@ -505,14 +501,14 @@ to make your journey through our beautiful country a unique experience.</p>
 <!--= ITEM 04--><div class="home__trending__column" role="column">
 <article class="home__trending__item set fadeInUp">
 <div class="home__trending__item__thumb">
-<a href="#" class="home__trending__item__link">
+<a href="https://jorge-fco.github.io/xoo-website" class="home__trending__item__link">
 <img src="https://jorge-fco.github.io/xoo-website/assets/images/trending_04.png?v=?v=0.04">
 </a>
 </div>
 <div class="home__trending__item__body" role="body">
 <h4>BETULUM HOTEL</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor</p>
-<a href="#" class="button" role="button">
+<a href="https://jorge-fco.github.io/xoo-website" class="button" role="button">
 <span>Read More</span>
 </a>
 </div>
@@ -551,7 +547,7 @@ to make your journey through our beautiful country a unique experience.</p>
 <p>©<strong>2024</strong> XOO – All rights reserved <a href="#" role="link" target="_blank">Aviso de privacidad</a></p>
 </div>
 </div>
-</footer><script src="https://jorge-fco.github.io/xoo-website/assets/dist/vendors.min.js?v=2.09"></script>
-<script src="https://jorge-fco.github.io/xoo-website/assets/dist/app.min.js?v=2.09"></script>
+</footer><script src="https://jorge-fco.github.io/xoo-website/assets/dist/vendors.min.js?v=3.02"></script>
+<script src="https://jorge-fco.github.io/xoo-website/assets/dist/app.min.js?v=3.02"></script>
 </body>
 </html>
